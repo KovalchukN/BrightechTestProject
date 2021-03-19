@@ -19,7 +19,7 @@ mail - django проект(отправка сообщения на список
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Все необходимые библиотеки находятся в файле requirements.txt 
-Для установки используйте: pip install -r requirements.txt
+<p>Для установки используйте: pip install -r requirements.txt</p>
 
-Для запуска Django проекта перейдите в BrightechTestProject/mail/ и выполните следующую команду : python manage.py runserver
+Для запуска Django проекта перейдите в BrightechTestProject/mail/ и выполните следующую команду : <p>python manage.py runserver</p>
 
