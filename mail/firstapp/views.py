@@ -12,7 +12,7 @@ def index(request):
         mail_to = request.POST.get('mail_to').split(", ")
         subject = userform.cleaned_data['subject']
         content = userform.cleaned_data['content']
-        if send_mail(subject, content, "sakovalchuk99@gmail.com", mail_to , fail_silently=True):
+        if send_mail(subject, content, "Python script", mail_to , fail_silently=True):
             return redirect('index')
     else:
         userform = MailForm()
