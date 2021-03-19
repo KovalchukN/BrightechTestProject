@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Django Forms</title>
+</head>
+<style>
+    .center{
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+    }
+</style>
+<body >
+    <div>
+        <table class="center">
+            <form method="post" >
+                {% csrf_token %}
+
+                {{form.as_p}}
+
+                <button type="submit"> Отправить </button>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
